@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T02:07:11 IST" name="Suite" finished-at="2023-03-08T02:08:02 IST" duration-ms="50760">
+    <groups>
+    </groups>
+    <test started-at="2023-03-08T02:07:11 IST" name="Test1" finished-at="2023-03-08T02:07:38 IST" duration-ms="27157">
+      <class name="mailVerification.testScript.SendMail">
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:mailVerification.testScript.SendMail@78e4deb0]" started-at="2023-03-08T02:07:11 IST" name="lunchBrowser" finished-at="2023-03-08T02:07:13 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String)[pri:0, instance:mailVerification.testScript.SendMail@78e4deb0]" started-at="2023-03-08T02:07:13 IST" name="login" finished-at="2023-03-08T02:07:22 IST" duration-ms="9488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dalwin.barnard@protonmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dalwin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sendMail()[pri:0, instance:mailVerification.testScript.SendMail@78e4deb0]" started-at="2023-03-08T02:07:22 IST" name="sendMail" finished-at="2023-03-08T02:07:38 IST" duration-ms="15620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mailVerification.testScript.SendMail@78e4deb0]" started-at="2023-03-08T02:07:38 IST" name="logout" finished-at="2023-03-08T02:07:38 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mailVerification.testScript.SendMail@78e4deb0]" started-at="2023-03-08T02:07:38 IST" name="closeBrowser" finished-at="2023-03-08T02:07:38 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mailVerification.testScript.SendMail -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-03-08T02:07:39 IST" name="Test2" finished-at="2023-03-08T02:08:02 IST" duration-ms="23523">
+      <class name="mailVerification.testScript.ReciveMail">
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:mailVerification.testScript.ReciveMail@cc43f62]" started-at="2023-03-08T02:07:39 IST" name="lunchBrowser" finished-at="2023-03-08T02:07:39 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String)[pri:0, instance:mailVerification.testScript.ReciveMail@cc43f62]" started-at="2023-03-08T02:07:39 IST" name="login" finished-at="2023-03-08T02:07:48 IST" duration-ms="8493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harry.barnard@protonmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dalwin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="reciveMail()[pri:0, instance:mailVerification.testScript.ReciveMail@cc43f62]" started-at="2023-03-08T02:07:48 IST" name="reciveMail" finished-at="2023-03-08T02:08:02 IST" duration-ms="13827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reciveMail -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mailVerification.testScript.ReciveMail@cc43f62]" started-at="2023-03-08T02:08:02 IST" name="logout" finished-at="2023-03-08T02:08:02 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mailVerification.testScript.ReciveMail@cc43f62]" started-at="2023-03-08T02:08:02 IST" name="closeBrowser" finished-at="2023-03-08T02:08:02 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mailVerification.testScript.ReciveMail -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
